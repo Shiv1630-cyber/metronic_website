@@ -1,0 +1,575 @@
+body{
+    width: 95vw;
+    height: 100vh;
+    background-color: white;
+    margin-right: 2rem;
+    margin-left: 2rem;
+
+}
+
+
+.header1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contactandemail a{
+    text-decoration: none;
+    color: black;
+}
+.loginandregistration button{
+    background: none;
+    border: none;
+    
+}
+.header2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.menuebar img{
+    display: none;
+}
+.menuebar{
+
+    background: none;
+    border: none;
+}
+.navigationbar{
+    padding-right: 7rem;
+}
+.homebtn{
+    background: none;
+    border: none;
+}
+.homedropdown{
+    position: relative;
+  display: inline-block;
+}
+.homecontent{
+    display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.homecontent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.homecontent a:hover {
+    background-color: red;
+}
+.homedropdown:hover .homecontent {
+    display: block;
+}
+.pagebtn{
+    background: none;
+    border: none;
+}
+.pagedropdown{
+    position: relative;
+  display: inline-block;
+}
+.pagecontent{
+    display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.pagecontent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.pagecontent a:hover {
+    background-color: red;
+}
+.pagedropdown:hover .pagecontent {
+    display: block;
+}
+.multilevelbtn{
+    background: none;
+    border: none;
+}
+.multileveldropdown{
+    position: relative;
+  display: inline-block;
+}
+.multilevelcontent{
+    display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.multilevelcontent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.multilevelcontent a:hover {
+    background-color: red;
+}
+.multileveldropdown:hover .multilevelcontent {
+    display: block;
+}
+.portfoliobtn{
+    background: none;
+    border: none;
+}
+.portfoliodropdown{
+    position: relative;
+  display: inline-block;
+}
+.portfoliocontent{
+    display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.portfoliocontent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.portfoliocontent a:hover {
+    background-color: red;
+}
+.portfoliodropdown:hover .portfoliocontent {
+    display: block;
+}
+.blogbtn{
+    background:none;
+    border: none;
+}
+.blogdropdown{
+    position: relative;
+  display: inline-block;
+}
+.blogcontent{
+display:none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px black;
+  z-index: 1;
+}
+.blogcontent a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.blogcontent a:hover {
+    background-color: red;
+}
+.blogdropdown:hover .blogcontent {
+    display: block;
+}
+.search{
+    
+    border: none;
+}
+.search img{
+    height: 25px;
+    width: 25px;
+}
+p{
+    padding: 10px;
+}
+span{
+    padding: 30px;
+}
+
+
+.classificationofmegamenue{
+    display: flex;
+    flex-direction: row;
+}
+.features{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.featuresicon{
+    height: 25px;
+    width: 25px;
+    padding: 10px;
+
+}
+.spanicon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.previewadmin{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gray;
+    color: white;
+}
+.previewbtn{
+    align-items: center;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+.rocketimg{ 
+    width: 25px;
+}
+.recentworks{
+    display: flex;
+    flex-direction: row;
+}
+.recentworksimg{
+    display: flex;
+    flex-direction: row;
+}
+.img{
+    width: 300px;
+    height: 200px;
+}
+.figcaption01{
+    padding-left: 10px;
+}
+.amazingproject{
+    text-decoration: none;
+    color: black;
+}
+.figcaption01 a:hover {
+    background-color: red;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    
+}
+button{
+    border: 1px solid white;
+    background-color: rgb(252, 243, 243);
+}
+button:focus {
+    background-color: red;
+}
+.contain{
+    width: 100%;
+    height: 170px;
+    background-color:  rgb(252, 243, 243);
+}
+
+.document{
+    width: 50%;
+}
+.director{
+    width: 50%;
+}
+.denim p{
+    width: 55%;
+    margin-left: 80px;
+    background-color: rgb(252, 243, 243);
+    
+}
+.cleanandfresh{
+    display: flex;
+    gap:2;
+    flex-direction: row;
+
+}
+.testionmal{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items: center;
+    column-gap: 25px;
+}
+.lina{
+    padding-left: 80px;
+}
+.commercial{
+    margin: 0;
+}
+.lina img{
+    
+    height: 100px;
+    width: 100px;
+    border-radius: 1000px;
+}
+.spanlina{
+    display: inline-block;
+    font-size: 25px;
+    color: red;
+}
+.spancommercial{
+    font-size: 12px;
+}
+
+
+.goaldefinition
+{
+    margin: 0;
+}
+.goal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-top: 30px;
+    width: 100%;
+    height: 18%;
+    
+    
+
+}
+.goaldefinition{
+    background-color: red;
+    color: white;
+    
+
+}
+.analyse{
+    background-color: rgb(141, 138, 138);
+    color: white;
+}
+.implementation{
+    background-color: rgb(83, 82, 82);
+    color: white;
+}
+.para01{
+    font-size: 30px;
+    line-height: 1px;
+}
+.para02{
+    padding-top: 0px;
+}
+.client{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.ourclient .p2{
+    line-height: 1px;
+}
+.ourclient .p1{
+    font-size: 30px;
+    line-height: 1px;
+    text-decoration: none;
+    color: black;
+}
+.photo{
+    filter: grayscale(100%);
+    height: 20%;
+    background-color: rgb(252, 243, 243);
+    border: 1px solid white;
+    
+}
+.photo:hover{
+    
+    filter: grayscale(1%);
+}
+.footerone{
+    background-color: rgb(63, 60, 60);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+    padding-bottom: 35px;
+}
+.footerone a{
+    text-decoration: none;
+    color: rgb(128, 128, 241);
+}
+.footerone .telephone{
+    color: white;
+}
+.potosstream{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto ;
+    column-gap: 1px;
+}
+.picture01 img{
+    height: 50px;
+    width: 50px;
+    border: 2px solid gray;
+}
+.subscribe{
+    row-gap: 0;
+}
+#email{
+    background: none;
+    border: 0.5px solid gray;
+    padding: 7px;
+    color: white;
+    
+}
+.subscribebtn{
+    background-color: red;
+    border: 0.5px solid gray;
+    padding: 7px;
+    color: white;
+    font-weight: bold;
+}
+.footertwo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(50, 48, 48);
+    color: white;
+}
+.footertwo p{
+    font-size: 12px;
+}
+.policy a{
+    color: white;
+    text-decoration: none;
+}
+.socialmedia img{
+    height: 25px;
+    width: 25px;
+}
+.poweredby a{
+    color: red;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width:800px) {
+    body{
+        width: 100%;
+        height: 100%;
+
+    }
+    .header1{
+        flex-direction: column;
+        
+    }
+    .loginandregistration{
+        padding: 12px;
+        display: block;
+    }
+    .menuebar img{
+        display: block;
+        height: 25px;
+        width: 25px;
+        
+
+    }
+    .menuebar{
+        display:inline-block ;
+    }
+   
+    .navbar{
+        width: 100px;
+        height: 100px;
+        
+
+        display: none;
+    }
+    .menuebar:hover .navbar{
+        display: block;
+        background-color: white;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        width: 100px;
+        height: 130px;
+        padding: 12px;
+    }
+    .features{
+        flex-direction: column;
+
+    }
+    .previewadmin{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .metronic{
+        text-align: center;
+        padding: 10px;
+    }
+    .previewbtn{
+        align-items: center;
+        height: 50px;
+        width: 150pxpx;
+    }
+    .recentworks{
+        flex-direction: column;
+    
+    }
+    .recentworksimg{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .cleanandfresh{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contain{
+        width: 100%;
+    }
+    .document{
+        width: 100%;
+    }
+    .director{
+        width: 100%;
+    }
+    .denim p{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .goal{
+        flex-direction: column;
+    }
+    .client{
+        flex-direction: column;
+    }
+    .clientimg{
+        display: flex;
+        flex-direction: row;
+    }
+    .photo img{
+        height: 60px;
+        width: 60px;
+    }
+    .ourclient .p2{
+        line-height: normal;
+    }
+    .footerone{
+        flex-direction: column;
+        padding-left: 15px;
+    }
+    .subscribe{
+    
+    }
+    .footertwo{
+        flex-direction: column;
+    }
+    .socialmedia img{
+        gap: 0;
+        padding: 10px;
+    }
+}
+
+
